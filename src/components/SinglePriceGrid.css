@@ -114,18 +114,22 @@ ul a {
 }
 
 @media (max-width: 375px) {
+	main {
+		width: 90%;
+		margin: 1em;
+		height: 20vh;
+	}
 
 	body {
 		font-size: 16px;
-		margin: 0;
 	}
 
 	#join {
-		padding: 2em;
+		padding: 1em;
 	}
 
 	#join h2 {
-		margin-bottom: 1em;
+		margin-bottom: 0.5em;
 		font-size: 24px;
 	}
 
@@ -136,14 +140,13 @@ ul a {
 	#join p {
 		width: 100%;
 	}
+
 	#container {
-		display: flex;
 		flex-direction: column;
 	}
 
 	#monthly {
-		padding: 2em;
-		height: 28vh;
+		padding: 1em;
 		width: 100%;
 	}
 
@@ -157,15 +160,12 @@ ul a {
 
 	#minicap {
 		position: relative;
-		top: -4em;
-		left: 5em;
-	}
-
-	#priceline {
-		margin-top: -3em;
+		top: -2.5em;
+		left: 3em;
 	}
 
 	button {
+		margin-top: 0;
 		height: 6vh;
 		font-size: 16px;
 	}
@@ -173,20 +173,14 @@ ul a {
 	#why {
 		width: 100%;
 		height: 33vh;
-		margin-top: 2em;
-		padding: 2em;
+		padding: 1em;
 	}
 
 	#why h2 {
 		font-size: 24px;
-		margin-bottom: 1em;
 	}
 
 	ul {
-		line-height: 1.5em;
-	}
-
-	ul a {
-		margin-left: -2.5em;
+		line-height: 1.3em;
 	}
 }
